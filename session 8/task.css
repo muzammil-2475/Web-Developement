@@ -1,0 +1,46 @@
+h3 {
+    text-align: center;
+    color: yellow;
+    background-color: seagreen;
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 500px; 
+    width: 100%; 
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 500px; 
+    width: 100%; 
+}
+
+#three {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px; 
+    width: 100%; 
+}
+
+
+div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 172, 222);
+    text-align: center;
+    line-height: 100px;
+}
